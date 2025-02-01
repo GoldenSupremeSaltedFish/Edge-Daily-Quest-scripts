@@ -1,0 +1,1 @@
+# Edge-Daily-Quest-scripts
