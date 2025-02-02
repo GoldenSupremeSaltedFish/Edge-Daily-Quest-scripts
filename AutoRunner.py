@@ -12,7 +12,7 @@ def setup_driver():
     driver = webdriver.Edge(options=options)
     return driver
 
-def search_in_edge(pages=60, scroll_pause_time=1, scroll_depth=1):
+def search_in_edge(pages=60, scroll_pause_time=10, scroll_depth=1):
     """
     使用 Edge 浏览器进行搜索，并滚动指定深度后关闭。
     :param search_query: 搜索的内容。
