@@ -7,7 +7,7 @@
 ## 🎀 项目结构
 
 - **AutoRunner.py**: 主脚本，负责启动 Edge 浏览器并执行自动化搜索任务。
-- **bulabula.py**: 生成随机文本的小工具，用来生成可爱的搜索内容。
+- ~~**bulabula.py**: 生成随机文本的小工具，用来生成可爱的搜索内容。~~（现在更新的脚本可以爬取关键词）
 - **EdgeRunner.bat**: 双击就能运行的批处理文件，超级方便！
 - **SetEnv.py**: 自动安装所需 Python 包的小助手。
 
@@ -16,7 +16,7 @@
 ## 🌟 功能
 
 - 🖥️ 自动启动 Edge 浏览器并访问 Bing。
-- 🎲 生成随机文本并在 Bing 上进行搜索。
+- 🎲 生成文本并在 Bing 上进行搜索。
 - ⚙️ 支持自定义搜索页面数量和滚动深度。
 - 📦 自动安装所需的 Python 包（如 Selenium）。
 
@@ -33,7 +33,7 @@
 2. **安装依赖**:
    确保你已经安装了 Python 3 和 pip。然后运行以下命令安装依赖：
    ```bash
-   pip install selenium
+   pip install selenium requests
    ```
 
 3. **运行项目**:
@@ -54,7 +54,7 @@
 ## 🧸 依赖
 
 - Python 3.x
-- Selenium
+- Selenium requests
 - Edge 浏览器
 
 ---
